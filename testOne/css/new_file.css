@@ -1,0 +1,376 @@
+*{
+	padding:0px;
+	margin:0px;
+	/*border: 1px red solid;*/
+	font-family: "微软雅黑";
+}
+ul, ol {
+	list-style: none;
+	
+}
+a{text-decoration: none;}
+#body1{
+	width: 950px;
+	height: ;
+	background: ;
+	margin-left:auto ;
+	margin-right: auto;
+	box-shadow: 0 4px 5px 0 rgba(66,00,99,0.19);
+}
+header{
+	width: 950px;
+	height: 400px;
+	background: url(../img/header-bg.png) no-repeat;
+	position: relative;
+}
+#guodu{
+ 	width: 950px;
+	height: 5px;
+	background: #f5d9ea;
+	opacity: 0.3;
+ }
+
+/*nav{
+	position: absolute;
+	left: 12px;
+	top: 5px;
+}
+.page{
+	
+	
+	position: relative;
+}
+.page ul{
+	width: 800px;
+	height: 100px;
+	display: none;
+	position: absolute;
+	top:5px;
+	left:150px ;
+	
+}
+.page ul li{
+	float:left;
+}
+ .page a ,.page ul li a{
+	padding:30px 60px;
+	background: #fcbee3;
+	border-radius: 50% 50%;
+	opacity: 0.4;
+	color:#0d0d50;
+	
+}
+	
+
+.page a:hover,.page ul li a:hover{
+ 	padding:30px 60px;
+	background: #fcbee3;
+	border-radius: 50% 50%;
+	opacity: 1;
+	color:white;
+ }
+ .page:hover ul{
+ 	display: block;
+ }
+ */
+
+
+/*导航条的设置*/
+
+nav .Class1{
+	position:absolute;
+	left: 0px;
+	bottom: 24px;
+	box-shadow:  0 3px 6px 0 rgba(66,00,99,0.24), 0 4px 7px 0 rgba(66,00,99,0.19);
+    float:left;
+}
+nav .Class1 li{
+	display: inline-block;
+	
+}
+nav .Class1 li  a{
+	display: block;
+	font-size: 1.0em;
+	padding: 15px 26px;
+	
+}
+nav .Class1 li  a span {
+	display: none;
+}
+nav .Class1 .first a{
+	
+	
+}
+nav .Class1 li  a:hover{
+	
+	background: pink;
+}
+ nav .Class1 li  a:hover span{
+ 	margin-top: -20px;
+ 	display: block;
+ }
+nav .search{
+	
+	width:300px;
+	height: 50px;
+	position: absolute;
+	
+	right: 0px;
+	bottom: 0px;
+	float:right;
+}
+nav .search form #txt{
+	display: inline-block;
+ 	width: 200px;
+ 	height: 30px;
+ 	border: 1px pink solid;
+ 	color:#555555;
+ 	padding: 0px 10px;
+ 	box-sizing: border-box;
+	float:right;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: none;
+}
+nav .search form #sub{
+	width:50px;
+	height: 50px;
+	border:none;
+	background: url(../img/Search.png);
+	float:right;
+}
+nav .search form #sub:hover{
+	cursor:pointer;
+}
+ 
+ /*搜索栏*/
+/*
+ .Search{
+ 	position: absolute;
+ 	right: 5px;
+ 	bottom: 8px;
+ }
+ .Search #txt{
+ 	display: inline-block;
+ 	width: 200px;
+ 	height: 30px;
+ 	border: 1px pink solid;
+ 	color:#555555;
+ 	padding: 0px 10px;
+ 	box-sizing: border-box;
+ }
+ .Search #searchKey{
+ 	background-color: rgba(221,107,349,0.35);
+ 	display: inline-block;
+	width: 50px;
+	height: 35px;
+	border-radius: 30px 30px;
+	border:0 solid #000000;
+ }
+ */
+ 
+#main-bd{
+	width: 950px;
+	height: 2100px;
+	background-color:rgba(249,107,198,0.1);
+	opacity: ;
+	padding-top:20px ;
+	
+}
+
+/*画册与动漫画廊列表的设置*/
+.gallery1{
+	width: 900px;
+	height: 350px;
+	background:  ;
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding: 10px 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	position: relative;
+}
+.gallery #Title{
+	border-bottom: 3px pink solid;
+}
+.gallery #Title a{
+	font-family: "微软雅黑";
+	font-size: 1.1em;
+	padding: 5px 9px;
+	background: pink;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	box-shadow: 2px 3px 6px 0px rgba(112,112,112,0.3);;
+}
+.gallery1 ul{
+	padding: 35px 20px;
+	/*border-top: 3px pink solid;*/
+	height: 330px;
+}
+.gallery1 ul li{
+	margin-right:30px;
+	
+	float:left;
+	-moz-perspective: 700px;
+	-ms-perspective: 700px;
+	-webkit-perspective: 700px;
+	perspective: 700px;
+	
+}
+.gallery1 ul li .photo-wrap {
+	position: relative;
+	backface-visibility: hidden;
+	transform-style:preserve-3d ;
+	transition: 1s;
+	
+}
+.gallery1 ul li,.gallery1 ul li .photo-wrap,.gallery1 ul .photo .photo-wrap .side-front,.gallery1 ul .photo .photo-wrap .side-back{
+	width:180px;
+	height: 250px;
+	backface-visibility: hidden;
+	
+}
+
+.gallery1 ul li .photo-wrap .side-front{
+	padding: 5px 5px;
+	box-sizing: border-box;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 999;
+}
+.gallery1 ul li .photo-wrap .side-back{
+	z-index: 2;
+	transform: rotateY(180deg);   /*如果不设置这个，鼠标经过时，背面不显示*/
+}
+.gallery1 ul li .photo-wrap .side-front,.gallery1 ul li .photo-wrap .side-back{
+	box-shadow:4px 5px 6px 0px rgba(252,155,3,0.4);
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 1px solid    	#F0F0F0;
+}
+.gallery1 ul .photo .photo-wrap .side-front img{
+	width: 160px;
+	height: 200px;
+}
+.gallery1 ul li .photo-wrap .side-front p{
+	text-align: center;
+	margin-top: 5px;
+	font-family: "微软雅黑";
+	color: #585858;
+	font-size: .9em;
+}
+/*设置海报翻转后背面描述*/
+.gallery1 ul li .photo-wrap .side-back p{
+	font-family: "微软雅黑";
+	font-size:1em;
+	color: 	#707070;
+	padding-top: 9px;
+}
+.gallery1 ul li .photo-wrap .side-back #desc span{
+	font-size: .8em;
+}
+.gallery1 ul li .photo-wrap .side-back #desc a{
+	font-size: .8em;
+	color:deeppink;
+	text-decoration: underline;
+}
+/*鼠标经过图片旋转
+.gallery1 ul li:hover .photo-wrap{
+	transform: rotateY(180deg);
+}
+*/
+
+/*两种翻面样式*/
+.photo-front .photo-wrap{
+	transform: rotateY(0deg);
+}
+.photo-back .photo-wrap{
+	transform: rotateY(180deg);
+}
+
+
+
+
+
+/*日常更新及aside概要栏*/
+.upDataList{
+	width: 900px;
+	/*height: 1800px;*/
+	border-top: 3px pink solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blogs ul .blog{
+	width: 835px;
+	/*border-left:5px solid yellow ;
+	 * *
+	 */
+	
+	
+	border:1px solid  	#D0D0D0 ;
+	position: relative;
+	border-bottom: 20px  	#D0D0D0 solid;
+	margin-bottom: 30px;
+}
+
+.blogs ul .blog figure{
+	padding: 10px 10px;
+	float:left;
+	margin-top: 15px;
+}
+.blogs ul .blog figure img {
+	width:135px;
+	height: 200px;
+	border-left:5px solid darkred ;
+	padding-left: 5px;
+}
+.blogs ul .blog div{
+	float:left ;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.blogs ul .blog div #h2{
+	padding: 15px 0px;
+}
+.blogs ul .blog div #h2 a{
+	font-size:1.9em;
+	color: 	#686868;
+	
+}
+.blogs ul .blog div #h2 a:hover{
+	text-decoration: underline;
+}
+.blogs ul .blog div #text{
+	font-size: .9em;
+	color:#686868;
+}
+.blogs ul .blog div #text a{
+	font-size: 0.9em;
+	
+	color:darkred;
+	
+}
+.blogs ul .blog .dataView{
+	position: absolute;
+	top:10px;
+	right: 10px;
+}
+.blogs ul .blog .dataView span{
+	padding: 0px 10px ;
+	font-size: .8em;
+	color:#B0B0B0;
+}
+
+
+/*底部设置*/
+footer {
+	height: 50px;
+	background:  	#B0B0B0;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size:.8em;
+	line-height: 50px;
+}

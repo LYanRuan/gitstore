@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		
+	<link  href="css/new_file.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="body1">
+			<header>
+				<!--<nav>
+					<ul>
+						<li class="page"><a href="#">首页</a>
+							<ul>
+								<li><a href="#">画册</a></li>
+								<li><a href="#">动漫</a></li>
+								<li><a href="#">音乐</a></li>
+								<li><a href="#">生活</a></li>
+								<li><a href="#">关于我</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</nav>-->
+				<nav>
+					<ul class="Class1">
+						
+						<li class="first"><a href="#">Protal</a></li>
+						<li><a href="#">Pictures</a></li>
+						<li><a href="#">Movies</a></li>
+						<li><a href="#">Music</a></li>
+						<li><a href="#">Life</a></li>
+						<li><a href="#">About me</a></li>
+					
+					</ul>
+					<div class="search">
+						<form action="#" >
+							
+							<input id="sub"  type="submit" value=" "/>
+							<input id="txt" type="text"/>
+						</form>
+					</div>
+				</nav>
+				
+		
+			</header>
+			<div id="guodu">
+				
+			</div>
+			<div id="main-bd">
+				<div class="gallery gallery1">
+
+					<p id="Title"><a href="#">动漫</a></p>
+					<ul>
+						<li onclick="turn(this)" class="photo photo-front">
+							<div class="photo-wrap">
+								<div class="side side-front">
+									<img src="img/MovingCastle.jpg" />
+									<p>哈尔的移动城堡</p>
+								</div>
+								<div class="side side-back">
+									<p id="caption">Title:哈尔的移动城堡</p>
+									<p id="desc">Desc：<span>《哈尔的移动城堡》，是宫崎骏继动画电影《千与千寻》之后，在2004年冬推出的作品。</span>
+										<a href="#" target="_blank">前去观看</a></p>
+								</div>
+							</div>
+							
+						</li>
+						<li class="second"></li>
+						<li class="third"></li>
+					</ul>
+				
+				
+				
+				</div>
+				<div class="gallery gallery1">
+					<p id="Title"><a href="#">画册</a></p>
+					<ul>
+						<li onclick="turn(this)" class="photo photo-front ">
+							<div class="photo-wrap">
+								<div class="side side-front">
+									<img src="img/EaR.jpg" />
+									<p>小象与小兔子童真系列</p>
+								</div>
+								<div class="side side-back">
+									<p id="caption">Title:小象与小兔子童真系列</p>
+									<p id="desc">Desc：<span>作者：未知；总之，很治愈系的插画</span><a href="#" target="_blank">前去观看</a></p>
+								</div>
+							</div>
+							
+						</li>
+						<li onclick="turn(this)" class="photo photo-front ">
+							<div class="photo-wrap">
+								<div class="side side-front">
+									<img src="img/subway.jpg" />
+									<p>地下铁</p>
+								</div>
+								<div class="side side-back">
+									<p id="caption">Title:地下铁</p>
+									<p id="desc">Desc：<span>作者：几米；一个盲女在自己想象和现实之间寻找属于自己的世界的故事。</span>
+										<a href="#" target="_blank">前去观看</a></p>
+								</div>
+							</div>
+						</li>
+						<li onclick="turn(this)" class="photo photo-front ">
+							<div class="photo-wrap">
+								<div class="side side-front">
+									<img src="img/flowerGrownfromHeartEveryday.jpg" />
+									<p>地下铁</p>
+								</div>
+								<div class="side side-back">
+									<p id="caption">Title:我的心中每天开出一朵花</p>
+									<p id="desc">Desc：<span>作者：几米；书中有一个男主角，并有一只小兔子、小女孩陪伴，他们用极富想象力的图片和简洁深刻的语言带领大家在作者丰富的内心世界里畅游。</span><a href="#">前去观看</a></p>
+								</div>
+							</div>
+						</li>
+						<li onclick="turn(this)" class="photo photo-front ">
+							<div class="photo-wrap">
+								<div class="side side-front">
+									<img src="img/MissMyCat.jpg" />
+									<p>遗失了一只猫</p>
+								</div>
+								<div class="side side-back">
+									<p id="caption">Title:遗失了一只猫</p>
+									<p id="desc">Desc：<span>作者：几米；诉说的是一个都会女子的失恋心情</span>
+										<a href="#" target="_blank">前去观看</a></p>
+								</div>
+							</div>
+							
+						</li>
+					</ul>
+				</div>
+				
+				<div class=" gallery gallery1 blogs ">
+					<p id="Title"><a href="#">Time Axis</a></p>
+					<ul>
+						<li class="blog">
+							<figure><img src="img/no-faceBoy.png" alt="" /></figure>
+							<div>
+								<p id="h2"><a href="#">Text one</a></p>
+								<p id="text"> 待更新动漫系列——《千与千寻》 <br /><a href="#">Read more>></a></p>
+							</div>
+							<p class="dataView">
+								<span>Class:Movies</span>								
+								<span>Author:Romar</span>
+								<span>Time:2016.10.23</span>
+							</p>
+						</li>
+						<li class="blog">
+							<figure><img src="img/no-faceBoy.png" alt="" /></figure>
+							<div>
+								<p id="h2"><a href="#">Text one</a></p>
+								<p id="text"> 待更新动漫系列——《千与千寻》 <br /><a href="#">Read more>></a></p>
+							</div>
+							<p class="dataView">
+								<span>Class: Movies</span>								
+								<span>Author: Romar</span>
+								<span>Time: 2016.10.23</span>
+							</p>
+						</li>
+						<li class="blog">
+							<figure><img src="img/no-faceBoy.png" alt="" /></figure>
+							<div>
+								<p id="h2"><a href="#">Text one</a></p>
+								<p id="text"> 待更新动漫系列——《千与千寻》 <br /><a href="#">Read more>></a></p>
+							</div>
+							<p class="dataView">
+								<span>Class:Movies</span>								
+								<span>Author:Romar</span>
+								<span>Time:2016.10.23</span>
+							</p>
+						</li>
+						<li class="blog">
+							<figure><img src="img/no-faceBoy.png" alt="" /></figure>
+							<div>
+								<p id="h2"><a href="#">Text one</a></p>
+								<p id="text"> 待更新动漫系列——《千与千寻》 <br /><a href="#">Read more>></a></p>
+							</div>
+							<p class="dataView">
+								<span>Class:Movies</span>								
+								<span>Author:Romar</span>
+								<span>Time:2016.10.23</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<footer>
+				EaR Blog Design by Romar
+			</footer>
+		</div>
+		<!--
+        	实现翻转的JS控制
+        -->
+		<script>
+
+			//翻面控制
+			function turn(elem){
+				var cls=elem.className;
+				if(/photo-front/.test(cls)){
+					cls=cls.replace(/photo-front/,'photo-back')
+				}else{
+					cls=cls.replace(/photo-back/,'photo-front')
+			}
+				return elem.className=cls;
+			}
+		</script>
+		 <!-- JQuery-->
+		 <script>
+		 $(document).ready(function(){
+		 	$("#sub").click(function(){
+		 		$("#txt").fadeToggle(1000);
+		 	});
+		 });
+		 	
+		 </script>
+	</body>
+</html>
